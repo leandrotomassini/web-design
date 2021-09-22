@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Chango', cursive;
+    font-style: italic;
+    font-size: 45px;
+
+    /* Colores */
+
+    /* Colores del sistema */
+    color: mediumpurple;
+
+    /* Colores hexadecimales */
+    
+    /* Cores rgb */
+    color: rgba(255, 19,38,0.5);
+
+    /* Cores rgba */
+
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: lighter;
+    color: olive;
+    color: rgba(90,77,120,0.8);
+}
+
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
