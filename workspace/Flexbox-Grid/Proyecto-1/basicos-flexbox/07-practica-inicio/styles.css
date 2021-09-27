@@ -8,11 +8,13 @@ body {
 .header-sitio {
     background-color: #03A9F4;
     padding:0 20px;
-    /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .header-sitio {
-        /* Flex aqui*/
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 .header-sitio h1 {
@@ -20,7 +22,7 @@ body {
 }
 
 nav {
-    /* Flex aqui*/
+    align-self: center;
 }
 nav a {
     color: white; 
@@ -45,20 +47,22 @@ h2 {
 
 .contenedor-flex {
     margin-top: 20px;
-    /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (min-width:768px) { 
     .contenedor-flex {
-       /* Flex aqui*/
+       flex-direction: row;
     }
 }
 
 .principal {
-    /* Flex aqui*/
+    order: 2;
 
 }
 aside {
     /* flex aqui*/
+    margin-bottom: 1rem;
 }
 
 aside {
@@ -66,21 +70,26 @@ aside {
 }
 @media screen and (min-width:768px) {
     .principal {
-        /* Flex aqui*/
+       flex: 0 1 60%;
+       margin-right: 1rem;
+       order: unset;
     }
     aside {
-        /* Flex aqui*/
+        flex: 1;
     }
 }
 .servicios {
     /* Flex aqui*/
+    display: flex;
+
 }
 .servicios .servicio {
     /* Flex aqui*/
+    flex:1;
 }
+
 @media screen and (min-width:768px) {
     .servicios .servicio {
-        /* Flex aqui*/
     }
 }
 
@@ -103,6 +112,9 @@ footer {
     background-color: #8E24AA;
     margin-top: 20px;
     /* Flex aqui*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer p {
     color: white;
